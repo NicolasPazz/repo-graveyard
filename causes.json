@@ -1,0 +1,122 @@
+{
+  "stillborn": [
+    "died before its first commit",
+    "git init, then nothing. Not even a README.",
+    "was just an idea with a .git folder",
+    "conceived at 1am, forgotten by 9am"
+  ],
+  "oneCommit": [
+    "died at \"initial commit\"",
+    "one commit, then silence",
+    "peaked at scaffolding",
+    "the boilerplate was the whole project"
+  ],
+  "robot": [
+    "the agent was the last one to see it alive",
+    "a bot was holding the keyboard when it happened",
+    "vibe coded into an early grave",
+    "the robot said it was production ready",
+    "you're absolutely right, it's dead"
+  ],
+  "messages": [
+    {
+      "match": "^wip\\b|work in progress",
+      "causes": ["died mid-sentence", "left a \"wip\" and walked into the sea", "work in progress, forever"]
+    },
+    {
+      "match": "rewrite|refactor|clean ?up",
+      "causes": ["died during a rewrite", "refactored to death", "the cleanup outlived the project"]
+    },
+    {
+      "match": "readme|\\bdocs?\\b",
+      "causes": ["died right after the README, the most optimistic file in any repo", "documented, never finished"]
+    },
+    {
+      "match": "^(hot|bug)?fix(es|ed)?\\b",
+      "causes": ["the last fix didn't fix it", "fixed one bug, met the other forty"]
+    },
+    {
+      "match": "typo",
+      "causes": ["fixed a typo and called it a day. A very long day."]
+    },
+    {
+      "match": "dependenc|deps|bump|upgrade|lockfile|npm|yarn|pnpm",
+      "causes": ["tried to upgrade the dependencies. The dependencies won.", "dependency hell", "lost the will to npm install"]
+    },
+    {
+      "match": "docker|kubernetes|k8s|helm|deploy|pipeline|workflow|\\bci\\b",
+      "causes": ["spent its last days writing YAML", "containerized, never shipped", "died in the pipeline, a few steps from prod"]
+    },
+    {
+      "match": "auth|login|oauth|jwt|password|session",
+      "causes": ["died trying to implement login", "auth ate it"]
+    },
+    {
+      "match": "test",
+      "causes": ["the tests were never green again", "wrote tests, found out the truth"]
+    },
+    {
+      "match": "css|style|design|ui\\b|tailwind|dark mode|responsive|navbar",
+      "causes": ["died picking a color palette", "centered one div too many"]
+    },
+    {
+      "match": "database|\\bdb\\b|migration|schema|prisma|sql",
+      "causes": ["the migration never came back"]
+    },
+    {
+      "match": "\\bai\\b|llm|gpt|chatbot|prompt|embedding",
+      "causes": ["pivoted to AI, then to the graveyard"]
+    },
+    {
+      "match": "^(final|done|finished|v1|release|ship(ped)?)\\b",
+      "causes": ["said it was finished. It was."]
+    },
+    {
+      "match": "merge",
+      "causes": ["merge conflict, no survivors"]
+    },
+    {
+      "match": "revert",
+      "causes": ["reverted itself out of existence"]
+    },
+    {
+      "match": "mvp|prototype|\\bpoc\\b|demo",
+      "causes": ["the MVP was the whole product", "a prototype, forever"]
+    },
+    {
+      "match": "todo|later|tomorrow|mañana",
+      "causes": ["\"I'll finish it tomorrow\""]
+    },
+    {
+      "match": "^(asdf\\w*|a+|x+|\\.+|stuff|changes|update|updates|cambios|misc|more|minor|ok)$",
+      "causes": ["last words: \"{msg}\""]
+    }
+  ],
+  "dirty": [
+    "died with uncommitted changes, like a browser with 80 tabs",
+    "left the stove on (uncommitted changes)",
+    "died mid-edit"
+  ],
+  "night": [
+    "died at 3am, as side projects do",
+    "last seen committing after midnight",
+    "sleep-deprived and over-scoped"
+  ],
+  "ancient": [
+    "natural causes",
+    "outlived its framework",
+    "its Node version belongs in a museum"
+  ],
+  "fallback": [
+    "just one more feature",
+    "a new idea came along",
+    "scope creep",
+    "you opened a new repo instead",
+    "the weekend ended",
+    "was going to be a startup",
+    "nobody knows. It just stopped.",
+    "the domain expired, and hope went with it",
+    "abandoned for a shinier stack",
+    "\"I'll come back to this\""
+  ]
+}
