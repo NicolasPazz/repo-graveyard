@@ -1,0 +1,32 @@
+{
+  "name": "repo-graveyard",
+  "version": "0.1.0",
+  "description": "Tombstones for your abandoned projects, plus the work you'd lose with them.",
+  "type": "module",
+  "bin": {
+    "repo-graveyard": "cli.js"
+  },
+  "files": [
+    "cli.js",
+    "graveyard.js",
+    "causes.json"
+  ],
+  "scripts": {
+    "start": "node cli.js",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "git",
+    "cli",
+    "side-projects",
+    "unpushed",
+    "node-modules",
+    "humor"
+  ],
+  "repository": "github:NicolasPazz/repo-graveyard",
+  "author": "NicolasPazz",
+  "license": "MIT"
+}
