@@ -26,7 +26,10 @@
     "node-modules",
     "humor"
   ],
-  "repository": "github:NicolasPazz/repo-graveyard",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NicolasPazz/repo-graveyard.git"
+  },
   "author": "NicolasPazz",
   "license": "MIT"
 }
