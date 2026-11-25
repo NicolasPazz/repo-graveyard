@@ -3,20 +3,10 @@
 Every dev folder is a cemetery. This one gives each dead project a tombstone, a cause of death, and a list of the work that dies with it if your disk goes next.
 
 ```
-$ npx repo-graveyard ~/dev
-
-🪦 todo-app-v3   † 3 years ago
-   cause of death: died at "initial commit"
-🪦 crypto-bot    † 14 months ago
-   cause of death: tried to upgrade the dependencies. The dependencies won.
-   ⚠ 3 unpushed commits, 2 uncommitted changes
-   412 MB in node_modules
-🪦 saas-idea     † 5 months ago
-   cause of death: the agent was the last one to see it alive
-   ⚠ no remote, all 41 commits live only on this disk
-
-12 repos · 3 dead · 9 alive · 2 with work you'd lose · 412 MB of dependencies rotting
+npx repo-graveyard ~/dev
 ```
+
+![repo-graveyard output: tombstones, causes of death and the work you'd lose](screenshot.png)
 
 The jokes get you to run it. The ⚠ lines are why you keep it: commits that never left your laptop, changes you never committed, stashes you forgot about. Now that an agent can scaffold a project in one afternoon, the graveyard fills up fast.
 
