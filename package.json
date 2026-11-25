@@ -1,6 +1,6 @@
 {
   "name": "repo-graveyard",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Tombstones for your abandoned projects, plus the work you'd lose with them.",
   "type": "module",
   "bin": {
